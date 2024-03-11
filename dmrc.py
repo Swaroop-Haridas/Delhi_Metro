@@ -43,7 +43,6 @@ class Graph(object):
 
                         break
 
-
 main_window = Tk()
 main_window.title("DELHI METRO")
 main_window.state("zoomed")
@@ -66,7 +65,7 @@ text_label=Label(topside,text="DELHI METRO ROUTE",font=("Arial",30),fg="white",b
 text_label.pack(side=LEFT,padx=30)
 
 leftside = LabelFrame(main_window , bd = 0,bg="yellow")
-leftside.place(x = 100 , y = 200, height=200, width = 300)
+leftside.place(x = 1000 , y = 2000, height=2000, width = 3000)
 
 start=Label(leftside,text="SOURCE",font=("Arial",18),fg="black",bg="yellow")
 start.pack(side = TOP,padx=10,pady=30)
@@ -88,7 +87,6 @@ combo2['values']=['Select Station','AIIMS Yellow Line', 'ANVT Pink Line', 'Adars
 combo2.current(0)
 combo2.pack(side=TOP,pady=30)
 
-
 def print_route(arr_sta,dis):
     rightside = LabelFrame(main_window ,bg="yellow",bd=0)
     rightside.place(x = 900 , y = 150, height=600, width = 400)
@@ -105,10 +103,7 @@ def print_route(arr_sta,dis):
         listbox.insert(END, "   ")
         listbox.insert(END, "   "+str(len(arr_sta)-i)+"."+" "+arr_sta[i])
 
-
     listbox.pack(fill=BOTH,expand=TRUE)
-
-
 
 def find_route(s,d):
     g=Graph()
