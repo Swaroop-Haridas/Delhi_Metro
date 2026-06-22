@@ -61,5 +61,3 @@ python dmrc.py
 * Breadth-First Search (BFS)
 * GUI Development using Tkinter
 * Python Desktop Application Development
-```
-```
