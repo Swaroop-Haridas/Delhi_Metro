@@ -36,7 +36,7 @@ Delhi_Metro-main/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Delhi_Metro.git
+git clone https://github.com/Swaroop-Haridas/Delhi_Metro.git
 ```
 
 2. Navigate to the project folder
