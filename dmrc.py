@@ -8,7 +8,7 @@ import pickle
 import sys
 class Graph(object):
     def __init__(self):
-        f=open("station_map","rb")
+        f=open("station_map.pkl","rb")
         self.a=pickle.load(f)
         self.b=pickle.load(f)
         self.graph =self.a
