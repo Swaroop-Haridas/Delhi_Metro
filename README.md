@@ -1,6 +1,10 @@
 # Delhi Metro Route Finder
 
-A Python desktop application built using Tkinter that helps users find the shortest route between Delhi Metro stations.
+A Python desktop application built with Tkinter that helps users find the shortest and most efficient route between Delhi Metro stations.
+
+This project leverages core concepts from Data Structures and Algorithms (DSA) to model the Delhi Metro network and determine optimal travel paths. The metro system is represented as a graph, where stations act as nodes and routes act as edges. Using the Breadth-First Search (BFS) algorithm, the application efficiently computes the shortest route between any two stations.
+
+The project features a user-friendly graphical interface developed with Tkinter, allowing users to easily select source and destination stations and view the recommended route. It demonstrates the practical application of graph theory, data structures, and search algorithms in solving real-world transportation and navigation problems.
 
 ## Features
 
@@ -57,7 +61,5 @@ python dmrc.py
 * Breadth-First Search (BFS)
 * GUI Development using Tkinter
 * Python Desktop Application Development
-
-
 ```
 ```
